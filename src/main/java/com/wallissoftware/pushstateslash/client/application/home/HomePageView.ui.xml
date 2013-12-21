@@ -1,0 +1,8 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+    <g:HTMLPanel>
+		<h1>Home Page</h1>
+    	<g:Hyperlink targetHistoryToken="/first">First Page</g:Hyperlink>
+    	<g:Hyperlink targetHistoryToken="/second">Second Page</g:Hyperlink>
+	</g:HTMLPanel>
+</ui:UiBinder>
